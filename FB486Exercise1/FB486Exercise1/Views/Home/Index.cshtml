@@ -1,0 +1,20 @@
+﻿@using FB486Exercise1.Models
+@model ILookup<string, CustomerSubset>
+@{
+    ViewBag.Title = "Customers by Country";
+}
+<h2>@ViewBag.Title</h2>
+<div id="customersByCountry">
+    @foreach (IGrouping<string, CustomerSubset> countryGroup in Model)
+    {
+        <div>
+            <h4>@countryGroup.Key</h4>
+            @foreach (CustomerSubset customer in countryGroup)
+            {
+                <div>
+                    @Html.ActionLink(customer.CompanyName, "Details", new { id = customer.CustomerID }, null)
+                </div>
+            }
+        </div>
+    }
+</div>

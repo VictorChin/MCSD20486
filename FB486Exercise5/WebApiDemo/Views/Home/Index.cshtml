@@ -1,0 +1,29 @@
+﻿<form id="myform">
+    <button type="button" id="getValues">Get Values</button><br/>
+    <input id="number" /><button type="button" id="getButton">Get</button>
+</form>
+<ul id="list"></ul>
+@section scripts {
+    <script>
+        myform.getButton.onclick = function () {
+            $.ajax({
+                url: "/api/values/" + myform.number.value,
+                type: "GET",
+                dataType: "json"
+            }).done(function (response) {
+                $("#list").append("<li>" + response + "</li>");
+            });
+        }
+        myform.getValues.onclick = function () {
+            $.ajax({
+                url: "/api/values",
+                type: "GET",
+                dataType: "json"
+            }).done(function (arrayOfStrings) {
+                arrayOfStrings.forEach(function (name) {
+                    $("#list").append("<li>" + name + "</li>");
+                });
+            });
+        }
+    </script>
+}

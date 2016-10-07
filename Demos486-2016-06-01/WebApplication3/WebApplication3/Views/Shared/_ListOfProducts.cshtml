@@ -1,0 +1,7 @@
+﻿@model IEnumerable<Product>
+<ul>
+    @foreach (WebApplication3.Models.Product p in Model)
+    {
+        <li>@p.ProductName</li>
+    }
+</ul>

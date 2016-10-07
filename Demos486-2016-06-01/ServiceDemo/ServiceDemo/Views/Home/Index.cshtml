@@ -1,0 +1,97 @@
+﻿<div class="row">
+    <div class="col-md-4">
+        <h2>Shippers using XMLHttpRequest</h2>
+        <select id="listOfShippers" size="5"></select><br/>
+        <input type="button" value="Refresh List" id="refreshListButton" />
+    </div>
+    <div class="col-md-4">
+        <h2>Shippers using jQuery</h2>
+        <select id="listOfShippers2" size="5"></select><br />
+        <input type="button" value="Refresh List" id="refreshListButton2" />
+        <p>
+            Select a shipper and then click Delete. 
+            You will only be able to delete shippers that do not have related records.
+        </p>
+        <p>
+            <input type="button" value="Delete" id="deleteShipper" />
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Insert a Shipper using jQuery</h2>
+        <input id="coName" value="Mark's Co" />
+        <input id="phone" value="555-1234" />
+        <input type="button" id="insertShipper" value="Insert"/>
+    </div>
+</div>
+@section scripts {
+    <script>
+        deleteShipper.onclick = function () {
+            $.ajax({
+                type: "DELETE",
+                url: "/api/shippers/" + listOfShippers2.value,
+            }).done(function (shipper) {
+                alert("I have deleted ID: " + shipper.ShipperID + ", Name: " + shipper.CompanyName);
+            }).fail(function () {
+                alert("Failed to delete.");
+            });
+        };
+
+        insertShipper.onclick = function () {
+            $.ajax({
+                type: "POST",
+                url: "/api/shippers",
+                dataType: "json",
+                data: {
+                    CompanyName: coName.value,
+                    Phone: phone.value
+                }
+            }).done(function (shipper) {
+                alert("I have inserted ID: " + shipper.ShipperID + ", Name: " + shipper.CompanyName);
+            });
+        };
+
+        refreshListButton2.onclick = function () {
+            $.ajax({
+                url: "/api/shippers",
+                dataType: "json"
+            }).done(function (shippers) {
+                listOfShippers2.innerHTML = ""; // clear the list
+                shippers.forEach(function (shipper) {
+                    $(listOfShippers2).append(
+                        "<option value='" +
+                        shipper.ShipperID + "'>"
+                        + shipper.CompanyName + "</option>");
+                });
+            });
+        };
+
+        refreshListButton.onclick = function () {
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function (e) {
+                //$(listOfShippers).append("<option>readyState: "
+                //    + xhr.readyState + "</option>");
+                if (xhr.readyState === 4) {
+                    if (xhr.status === 200) {
+                        if (xhr.getResponseHeader("Content-Type")
+                            === "application/json; charset=utf-8") {
+
+                            var shippers = JSON.parse(xhr.responseText);
+                            shippers.forEach(function (shipper) {
+                                $(listOfShippers).append(
+                                    "<option value='" +
+                                    shipper.ShipperID + "'>"
+                                    + shipper.CompanyName + "</option>");
+                            });
+                        } else {
+                            alert("Unknown format!");
+                        }
+                    } else {
+                        alert(xhr.statusText);
+                    }
+                }
+            };
+            xhr.open("GET", "/api/shippers");
+            xhr.send();
+        };
+    </script>
+}

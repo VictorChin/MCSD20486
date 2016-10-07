@@ -1,0 +1,19 @@
+DiagnosticsPluginLauncher.exe Information: 0 : [01/06/2016 13:22:15] At least one other instance of the launcher is running. Will wait until they all finish
+DiagnosticsPluginLauncher.exe Information: 0 : [01/06/2016 13:22:15] Service running in Emulator Mode, will not wait/kill other instances of the launcher
+DiagnosticsPluginLauncher.exe Information: 0 : [01/06/2016 13:22:15] Emulator config file set to c:\users\administrator\documents\visual studio 2013\Projects\NWCloudService\NWCloudService\csx\Debug\roles\DataTier\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [01/06/2016 13:22:15] DiagnosticsStoreRootPath set to: C:\Users\Administrator\AppData\Local\dftmp\Resources\d17ab387-073c-4e6c-9992-6e698214e8df
+DiagnosticsPluginLauncher.exe Information: 0 : [01/06/2016 13:22:15] Loading config file: c:\users\administrator\documents\visual studio 2013\Projects\NWCloudService\NWCloudService\csx\Debug\roles\DataTier\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [01/06/2016 13:22:15] Config file to read: c:\users\administrator\documents\visual studio 2013\Projects\NWCloudService\NWCloudService\csx\Debug\roles\DataTier\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [01/06/2016 13:22:15] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [01/06/2016 13:22:15] Emulator config file set to c:\users\administrator\documents\visual studio 2013\Projects\NWCloudService\NWCloudService\csx\Debug\roles\DataTier\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [01/06/2016 13:22:15] Extension set to Emulator Mode
+DiagnosticsPluginLauncher.exe Information: 0 : [01/06/2016 13:22:15] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [01/06/2016 13:22:15] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [01/06/2016 13:22:15] Stopping the running plugin, if any
+DiagnosticsPluginLauncher.exe Information: 0 : [01/06/2016 13:22:15] No DiagnosticsPlugin is running.
+DiagnosticsPluginLauncher.exe Information: 0 : [01/06/2016 13:22:15] Killing any DiagnosticsPlugin that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [01/06/2016 13:22:15] Killing any MonAgentHost that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [01/06/2016 13:22:15] Diagnostics plugin stopped successfully
+DiagnosticsPluginLauncher.exe Information: 0 : [01/06/2016 13:22:15] Resetting DiagnosticPlugin
+DiagnosticsPluginLauncher.exe Information: 0 : [01/06/2016 13:23:26] DiagnosticsPlugin launched successfully with new configuration
+DiagnosticsPluginLauncher.exe Information: 0 : [01/06/2016 13:23:26] DiagnosticPlugin exited with code 0

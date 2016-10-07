@@ -1,0 +1,50 @@
+﻿@model IEnumerable<OperasDemo.Models.Opera>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>@Resources.Strings.HW</h2>
+<h3>@DateTime.Now.ToLongDateString()</h3>
+<h4>@ViewBag.Price.ToString("C")</h4>
+<div>
+    <input type="button" value="@Resources.Strings.Save" />
+    <input type="button" value="@Resources.Strings.Cancel" />
+</div>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Year)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Composer)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Year)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Composer)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.OperaID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.OperaID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.OperaID })
+        </td>
+    </tr>
+}
+
+</table>

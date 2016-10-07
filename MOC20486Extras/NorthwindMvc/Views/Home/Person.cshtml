@@ -1,0 +1,29 @@
+﻿@using NorthwindMvc.Models
+@model Person
+
+@{
+    ViewBag.Title = Model.FirstName + " " + Model.LastName;
+}
+
+<h3>@Model.FirstName @Model.LastName is @Model.Age</h3>
+<p>
+    <input id="personUrl" value="personasjson" />
+    <small>Enter URL, for example, /home/personasjson or personasjson</small>
+</p>
+<p>
+    <input type="button" value="Get Person using AJAX" id="ajaxButton" />
+</p>
+@section scripts {
+    <script>
+        $('#ajaxButton').on('click', function () {
+            $.ajax({
+                url: document.getElementById('personUrl').value
+            }).done(function (person) {
+                // it will be case-sensitive
+                alert("Person: " + person.FirstName + " " + person.LastName + " is " + person.Age);
+            }).fail(function (error) {
+                alert("Error " + error.status + ": " + error.statusText);
+            });
+        });
+    </script>
+}

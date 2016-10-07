@@ -1,0 +1,78 @@
+﻿<div style="display: -ms-flexbox; -ms-flex-direction: row; -webkit-flex-direction: row; flex-direction: row;">
+    <div class="pad">
+        <h2>Get All Customers</h2>
+        <button type="button" id="getAllButton">Get All</button>
+        <span id="tempMsg" style="display: none;">Please wait...</span><br />
+        <select id="listOfCustomers" size="10"></select>
+    </div>
+    <div class="pad">
+        <h2>Get Details</h2>
+        <div><button type="button" id="getDetailButton">Get Detail</button></div>
+        <div>
+            <div id="customerID"></div>
+            <div id="companyName"></div>
+            <div id="contactName"></div>
+            <div id="contactTitle"></div>
+            <div id="address"></div>
+            <div id="city"></div>
+            <div id="country"></div>
+            <div id="phone"></div>
+            <div id="fax"></div>
+        </div>
+    </div>
+    <div class="pad">
+        <h2>Insert Customer</h2>
+        <form id="insertForm">
+            <input name="CustomerID" value="ABCDE" /><br />
+            <input name="CompanyName" value="ExampleCo" /><br />
+            <input name="City" value="London" /><br />
+            <input name="Country" value="UK" /><br />
+            <input type="button" value="Insert" id="insertButton" />
+        </form>
+    </div>
+</div>
+@section scripts {
+    <script>
+        insertForm.insertButton.onclick = function () {
+            $.ajax({
+                type: "POST",
+                url: "/api/customers",
+                dataType: "json",
+                data: $("#insertForm").serialize()
+            }).done(function (response) {
+                alert(response.CompanyName + " was inserted.");
+            });
+        };
+        getDetailButton.onclick = function () {
+            $.ajax({
+                url: "/api/customers/" + listOfCustomers.value,
+                dataType: "json"
+            }).done(function (customer) {
+                customerID.innerText = customer.CustomerID;
+                companyName.innerText = customer.CompanyName;
+                contactName.innerText = customer.ContactName;
+                contactTitle.innerText = customer.ContactTitle;
+                address.innerText = customer.Address;
+                city.innerText = customer.City;
+                country.innerText = customer.Country;
+                phone.innerText = customer.Phone;
+                fax.innerText = customer.Fax;
+            });
+        };
+        getAllButton.onclick = function () {
+            tempMsg.style.display = "inline";
+            getAllButton.disabled = true;
+            listOfCustomers.innerHTML = "";
+            $.ajax({
+                url: "/api/customers",
+                dataType: "json"
+            }).done(function (arrayOfCustomers) {
+                arrayOfCustomers.forEach(function (customer) {
+                    $("#listOfCustomers").append("<option value='" + customer.CustomerID + "'>" + customer.CompanyName + "</option>");
+                    getAllButton.disabled = false;
+                    tempMsg.style.display = "none";
+                });
+            });
+        };
+    </script>
+}

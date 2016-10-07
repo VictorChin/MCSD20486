@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<h2 id="timeoutput">@DateTime.Now.ToLongTimeString()</h2>
+<div>
+    @Ajax.ActionLink("Refresh Time", "GetTime", new AjaxOptions
+    {
+        InsertionMode = InsertionMode.Replace,
+        UpdateTargetId = "timeoutput"
+    })
+</div>
+
+@section scripts {
+<script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+@Scripts.Render("~/bundles/mystuff")
+}

@@ -1,0 +1,7 @@
+﻿<div class="row">
+    @foreach (var item in ViewData)
+    {
+        <h4>@item.Key: @item.Value</h4>
+    }
+</div>
+@Html.Partial("_Time")

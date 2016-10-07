@@ -1,0 +1,23 @@
+﻿<div class="jumbotron">
+    <form id="muppetForm">
+        <input name="Name" value="Kermit" />
+        <input name="Age" value="65" />
+        <input type="button" id="postButton" value="POST" />
+    </form>
+</div>
+@section scripts {
+    <script>
+        $(function () {
+            muppetForm.postButton.onclick = function () {
+                $.ajax({
+                    url: "/api/values",
+                    type: "POST",
+                    data: $(muppetForm).serialize(),
+                    dataType: "json"
+                }).done(function (muppet) {
+                    alert(muppet.Name + " is now " + muppet.Age);
+                });
+            };
+        });
+    </script>
+}

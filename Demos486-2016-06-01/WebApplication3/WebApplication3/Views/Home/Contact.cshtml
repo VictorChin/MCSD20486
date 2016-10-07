@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+@Html.Partial("_Time")
+<h2>@ViewBag.Title.</h2>
+<div>@(new HtmlString(ViewBag.Message))</div>
+<div>@(new MvcHtmlString(ViewBag.Message))</div>
+<a href="http://www.apple.com/">Apple</a>
+<a href="/home/muppet">Muppets</a>
+@Html.ActionLink("Muppets", "Muppet", "Home")

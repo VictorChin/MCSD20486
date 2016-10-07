@@ -1,0 +1,12 @@
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\OperasDemo\SharedResources\bin\Debug\SharedResources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\OperasDemo\SharedResources\bin\Debug\SharedResources.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\OperasDemo\SharedResources\bin\Debug\da\SharedResources.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\OperasDemo\SharedResources\bin\Debug\fr\SharedResources.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\OperasDemo\SharedResources\obj\Debug\SharedResources.Strings.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\OperasDemo\SharedResources\obj\Debug\SharedResources.Strings.da.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\OperasDemo\SharedResources\obj\Debug\SharedResources.Strings.fr.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\OperasDemo\SharedResources\obj\Debug\SharedResources.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\OperasDemo\SharedResources\obj\Debug\da\SharedResources.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\OperasDemo\SharedResources\obj\Debug\fr\SharedResources.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\OperasDemo\SharedResources\obj\Debug\SharedResources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\OperasDemo\SharedResources\obj\Debug\SharedResources.pdb
