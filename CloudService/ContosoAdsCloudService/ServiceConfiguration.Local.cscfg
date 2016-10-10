@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="ContosoAdsCloudService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="ContosoAdsWeb">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=demo486;AccountKey=HZpQm0npqdkZe00cU74FVLVl7+G9Q5/nMslIfeY1+9CPmKPRlScLW+TXNcWG0DLkwIjGzR5hnWU1rLeYOSD91g==" />
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=demo486;AccountKey=HZpQm0npqdkZe00cU74FVLVl7+G9Q5/nMslIfeY1+9CPmKPRlScLW+TXNcWG0DLkwIjGzR5hnWU1rLeYOSD91g==" />
+      <Setting name="ContosoAdsDbConnectionString" value="Server=tcp:sv20532vc.database.windows.net,1433;Initial Catalog=ContosoAds;Persist Security Info=False;User ID=testuser;Password=TestPa$$w0rd;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="chinzilla" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEHGjBxOrNf2oQXCynltSUbUwDQYJKoZIhvcNAQEBBQAEggEAPZiuneQN9aQjJNR5qUa90d6SgCUr/e9HrvoBhiRF8iEoP7148bv0K9P3iVbsDtHFFULVKmUYAjfJ0nG343Jj/9ujebV0hEeRZSOlxFj+OX4Up/YhOaf3tu6TELeHatRHCPzNUHrOtVd17+JKnTgRQZJ7j905crq2VD3u2RKrckV2Figl17RztBmbdxW+zQg++dSJPT6x2UAmFjfQU6fYLSlO8qog6QJaRL6d3HNodurWgP02C4SSzoIY2lnwFQeSjuOFKFD5PyJy0UXImjZuUtyQD4n5bAeNf0JaWZsJYhYrtUPW12F77pgQao0c5RTZJVN6m2/LGbpxwYzPrWTIxTAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECB84oph+XlZugBBxFpeNEs9LgG70O57/H2VF" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2017-10-10T23:59:59.0000000+01:00" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="E5D0A40833BBEF6485E2218D601A3857619E2522" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+  <Role name="ContosoAdsWorker">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=demo486;AccountKey=HZpQm0npqdkZe00cU74FVLVl7+G9Q5/nMslIfeY1+9CPmKPRlScLW+TXNcWG0DLkwIjGzR5hnWU1rLeYOSD91g==" />
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=demo486;AccountKey=HZpQm0npqdkZe00cU74FVLVl7+G9Q5/nMslIfeY1+9CPmKPRlScLW+TXNcWG0DLkwIjGzR5hnWU1rLeYOSD91g==" />
+      <Setting name="ContosoAdsDbConnectionString" value="Server=tcp:sv20532vc.database.windows.net,1433;Initial Catalog=ContosoAds;Persist Security Info=False;User ID=testuser;Password=TestPa$$w0rd;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="chinzilla" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEHGjBxOrNf2oQXCynltSUbUwDQYJKoZIhvcNAQEBBQAEggEAPZiuneQN9aQjJNR5qUa90d6SgCUr/e9HrvoBhiRF8iEoP7148bv0K9P3iVbsDtHFFULVKmUYAjfJ0nG343Jj/9ujebV0hEeRZSOlxFj+OX4Up/YhOaf3tu6TELeHatRHCPzNUHrOtVd17+JKnTgRQZJ7j905crq2VD3u2RKrckV2Figl17RztBmbdxW+zQg++dSJPT6x2UAmFjfQU6fYLSlO8qog6QJaRL6d3HNodurWgP02C4SSzoIY2lnwFQeSjuOFKFD5PyJy0UXImjZuUtyQD4n5bAeNf0JaWZsJYhYrtUPW12F77pgQao0c5RTZJVN6m2/LGbpxwYzPrWTIxTAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECB84oph+XlZugBBxFpeNEs9LgG70O57/H2VF" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2017-10-10T23:59:59.0000000+01:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="E5D0A40833BBEF6485E2218D601A3857619E2522" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

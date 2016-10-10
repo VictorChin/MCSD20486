@@ -8,10 +8,14 @@ namespace MvcDemo.Controllers
 {
     public class HomeController : Controller
     {
+        
         public ActionResult Index()
         {
+            Session["Key1"] =DateTime.Now;
             int model = new Random().Next(500, 1001);
-            return View(model);
+            //if (true)
+            //{ throw new ArgumentException("huh?"); }
+          return View(model);
         }
 
         public ActionResult About()

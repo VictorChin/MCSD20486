@@ -1,0 +1,9 @@
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsCommon\bin\Release\ContosoAdsCommon.dll.config
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsCommon\bin\Release\ContosoAdsCommon.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsCommon\bin\Release\ContosoAdsCommon.pdb
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsCommon\bin\Release\EntityFramework.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsCommon\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsCommon\bin\Release\EntityFramework.xml
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsCommon\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsCommon\obj\Release\ContosoAdsCommon.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsCommon\obj\Release\ContosoAdsCommon.pdb

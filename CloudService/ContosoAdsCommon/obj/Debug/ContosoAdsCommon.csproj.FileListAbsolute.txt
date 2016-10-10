@@ -1,0 +1,18 @@
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsCommon\bin\Debug\ContosoAdsCommon.dll.config
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsCommon\bin\Debug\ContosoAdsCommon.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsCommon\bin\Debug\ContosoAdsCommon.pdb
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsCommon\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsCommon\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsCommon\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsCommon\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsCommon\obj\Debug\ContosoAdsCommon.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsCommon\obj\Debug\ContosoAdsCommon.pdb
+C:\FB486_MVC\CloudService\ContosoAdsCommon\bin\Debug\ContosoAdsCommon.dll.config
+C:\FB486_MVC\CloudService\ContosoAdsCommon\bin\Debug\ContosoAdsCommon.dll
+C:\FB486_MVC\CloudService\ContosoAdsCommon\bin\Debug\ContosoAdsCommon.pdb
+C:\FB486_MVC\CloudService\ContosoAdsCommon\bin\Debug\EntityFramework.dll
+C:\FB486_MVC\CloudService\ContosoAdsCommon\bin\Debug\EntityFramework.SqlServer.dll
+C:\FB486_MVC\CloudService\ContosoAdsCommon\bin\Debug\EntityFramework.xml
+C:\FB486_MVC\CloudService\ContosoAdsCommon\bin\Debug\EntityFramework.SqlServer.xml
+C:\FB486_MVC\CloudService\ContosoAdsCommon\obj\Debug\ContosoAdsCommon.dll
+C:\FB486_MVC\CloudService\ContosoAdsCommon\obj\Debug\ContosoAdsCommon.pdb

@@ -1,0 +1,170 @@
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\ContosoAdsWeb.dll.config
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\ContosoAdsWeb.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\ContosoAdsWeb.pdb
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\ContosoAdsCommon.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\EntityFramework.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\Microsoft.Data.Edm.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\Microsoft.Data.OData.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\Microsoft.Data.Services.Client.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\System.Spatial.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\System.Web.Razor.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\WebGrease.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\MonAgentListener.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\ContosoAdsCommon.pdb
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\EntityFramework.xml
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\Microsoft.Data.Edm.xml
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\Microsoft.Data.OData.xml
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\Microsoft.Data.Services.Client.xml
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\System.Spatial.xml
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\System.Web.Optimization.xml
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\System.Web.Razor.xml
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\de\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\es\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\fr\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\it\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\ja\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\ko\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\ru\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\obj\Release\ContosoAdsWeb.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\obj\Release\ContosoAdsWeb.dll
+C:\Users\Administrator\Downloads\Simple Azure Cloud Service with Web Role and Worker Role\C#\ContosoAdsWeb\obj\Release\ContosoAdsWeb.pdb
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\ContosoAdsWeb.dll.config
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\ContosoAdsWeb.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\ContosoAdsWeb.pdb
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\Antlr3.Runtime.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\ContosoAdsCommon.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\EntityFramework.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\EntityFramework.SqlServer.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\Microsoft.Data.Edm.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\Microsoft.Data.OData.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\Microsoft.Data.Services.Client.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\Microsoft.WindowsAzure.Storage.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\Newtonsoft.Json.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\System.Spatial.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\System.Web.Helpers.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\System.Web.Mvc.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\System.Web.Optimization.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\System.Web.Razor.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\System.Web.WebPages.Deployment.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\System.Web.WebPages.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\System.Web.WebPages.Razor.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\WebGrease.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\MonAgentListener.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\ContosoAdsCommon.pdb
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\EntityFramework.xml
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\EntityFramework.SqlServer.xml
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\Microsoft.Data.Edm.xml
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\Microsoft.Data.OData.xml
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\Microsoft.Data.Services.Client.xml
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\Microsoft.WindowsAzure.Storage.xml
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\Newtonsoft.Json.xml
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\System.Spatial.xml
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\System.Web.Helpers.xml
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\System.Web.Mvc.xml
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\System.Web.Optimization.xml
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\System.Web.Razor.xml
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\System.Web.WebPages.xml
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\System.Web.WebPages.Deployment.xml
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\System.Web.WebPages.Razor.xml
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\Antlr3.Runtime.pdb
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\de\Microsoft.Data.Edm.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\es\Microsoft.Data.Edm.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\it\Microsoft.Data.Edm.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\de\Microsoft.Data.OData.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\es\Microsoft.Data.OData.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\fr\Microsoft.Data.OData.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\it\Microsoft.Data.OData.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\ja\Microsoft.Data.OData.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\ko\Microsoft.Data.OData.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\ru\Microsoft.Data.OData.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\de\System.Spatial.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\es\System.Spatial.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\fr\System.Spatial.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\it\System.Spatial.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\ja\System.Spatial.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\ko\System.Spatial.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\ru\System.Spatial.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\zh-Hans\System.Spatial.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\bin\zh-Hant\System.Spatial.resources.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\obj\Release\ContosoAdsWeb.csprojResolveAssemblyReference.cache
+C:\FB486_MVC\CloudService\ContosoAdsWeb\obj\Release\ContosoAdsWeb.dll
+C:\FB486_MVC\CloudService\ContosoAdsWeb\obj\Release\ContosoAdsWeb.pdb

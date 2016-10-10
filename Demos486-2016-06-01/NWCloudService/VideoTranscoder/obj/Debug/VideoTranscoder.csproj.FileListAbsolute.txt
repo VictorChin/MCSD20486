@@ -57,3 +57,6 @@ c:\users\administrator\documents\visual studio 2013\Projects\NWCloudService\Vide
 c:\users\administrator\documents\visual studio 2013\Projects\NWCloudService\VideoTranscoder\obj\Debug\VideoTranscoder.csprojResolveAssemblyReference.cache
 c:\users\administrator\documents\visual studio 2013\Projects\NWCloudService\VideoTranscoder\obj\Debug\VideoTranscoder.dll
 c:\users\administrator\documents\visual studio 2013\Projects\NWCloudService\VideoTranscoder\obj\Debug\VideoTranscoder.pdb
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\NWCloudService\VideoTranscoder\obj\Debug\VideoTranscoder.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\NWCloudService\VideoTranscoder\obj\Debug\VideoTranscoder.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\NWCloudService\VideoTranscoder\obj\Debug\VideoTranscoder.pdb
