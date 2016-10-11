@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30324.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp-WSFederation-DotNet", "WebApp-WSFederation-DotNet\WebApp-WSFederation-DotNet.csproj", "{D4960069-0AB5-42D5-B711-722681DBCA0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADFSDEMO", "ADFSDEMO\ADFSDEMO.csproj", "{9D060FA1-511A-4E2E-8DAF-10D093B37DBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D4960069-0AB5-42D5-B711-722681DBCA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4960069-0AB5-42D5-B711-722681DBCA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4960069-0AB5-42D5-B711-722681DBCA0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D060FA1-511A-4E2E-8DAF-10D093B37DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D060FA1-511A-4E2E-8DAF-10D093B37DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D060FA1-511A-4E2E-8DAF-10D093B37DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D060FA1-511A-4E2E-8DAF-10D093B37DBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

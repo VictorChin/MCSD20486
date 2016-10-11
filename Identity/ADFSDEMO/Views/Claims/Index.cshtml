@@ -1,0 +1,39 @@
+﻿@using System.Security.Claims
+@model IEnumerable<Claim>
+@{ ViewBag.Title = "Claims"; }
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <table class="table table-striped">
+            <tr>
+                <th>Subject</th>
+                <th>Issuer</th>
+                <th>Type</th>
+                <th>Value</th>
+            </tr>
+            @{
+                var surname = (Model.Where(c => c.Type.Contains("surname")).Select(c => c.Value).First());
+            }
+            <tr><td colspan="4">Good Day Mr. @surname</td></tr>
+
+            @foreach (Claim claim in Model.OrderBy(x => x.Type))
+            {
+
+
+                <tr>
+                    <td>@claim.Subject.Name</td>
+                    <td>@claim.Issuer</td>
+                    <td>@claim.Type.ToString()</td>
+                    <td>@claim.Value</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>
