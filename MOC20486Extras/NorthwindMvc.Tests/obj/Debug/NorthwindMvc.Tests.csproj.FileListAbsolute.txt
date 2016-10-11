@@ -33,3 +33,39 @@ c:\users\administrator\documents\visual studio 2012\Projects\MOC20486Extras\Nort
 c:\users\administrator\documents\visual studio 2012\Projects\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\EntityFramework.xml
 c:\users\administrator\documents\visual studio 2012\Projects\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\fr\NorthwindMvc.resources.dll
 c:\users\administrator\documents\visual studio 2012\Projects\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\fr-CA\NorthwindMvc.resources.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\NorthwindMvc.Tests.dll.config
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\NorthwindMvc.Tests.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\NorthwindMvc.Tests.pdb
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\NorthwindMvc.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\NorthwindMvc.pdb
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\fr\NorthwindMvc.resources.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\fr-CA\NorthwindMvc.resources.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\obj\Debug\NorthwindMvc.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\obj\Debug\NorthwindMvc.Tests.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\obj\Debug\NorthwindMvc.Tests.pdb

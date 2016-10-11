@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Flights";
+}
+
+<h2>Flights</h2>
+
+<p><a href="/api/flights">GET flights</a> <small>(returns a string)</small></p>
+
+<p>Enter a 'flight name' in any of the forms below and click submit.</p>
+
+<form name="testFlights" action="/api/flights" method="get">
+    <input name="id" value="BA123" />
+    <input type="submit" />
+    <small>(/api/flights)</small>
+</form>
+<form name="testFlights" action="/api/flights/show" method="post">
+    <input name="flightName" value="BA123" />
+    <input type="submit" />
+    <small>(/api/flights/show)</small>
+</form>
+<form name="testFlights" action="/api/flights/display" method="post">
+    <input name="flightName" value="BA123" />
+    <input type="submit" />
+    <small>(/api/flights/display)</small>
+</form>

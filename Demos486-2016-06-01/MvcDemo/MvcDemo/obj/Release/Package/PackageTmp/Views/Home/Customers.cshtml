@@ -1,0 +1,20 @@
+﻿@model IEnumerable<MvcDemo.Models.Customer>
+@{
+    ViewBag.Title = "Customers";
+}
+<h2>Customers</h2>
+<table>
+    <tr>
+        <th>Company Name</th>
+        <th>City</th>
+        <th>Country</th>
+    </tr>
+    @foreach (MvcDemo.Models.Customer c in Model)
+    {
+        <tr>
+            <td>@c.CompanyName</td>
+            <td>@c.City</td>
+            <td>@c.Country</td>
+        </tr>
+    }
+</table>

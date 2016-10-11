@@ -161,6 +161,7 @@
     <Compile Include="Models\Shipper.cs" />
     <Compile Include="Models\Supplier.cs" />
     <Compile Include="Models\Territory.cs" />
+    <Compile Include="Modules\CustomModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -174,6 +175,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\Admin\Views\web.config" />
     <Content Include="Areas\Backend\Views\web.config" />
+    <None Include="Properties\PublishProfiles\ToLocalIIS.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

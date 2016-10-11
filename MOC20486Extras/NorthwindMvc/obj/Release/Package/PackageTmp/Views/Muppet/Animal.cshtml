@@ -1,0 +1,40 @@
+﻿@model NorthwindMvc.ViewModels.MuppetAnimalViewModel
+
+@{
+    ViewBag.Title = "Animal";
+}
+
+<h2>Animal</h2>
+
+<fieldset>
+    <legend>MuppetAnimalViewModel</legend>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.FullName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FullName)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Legs)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Legs)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Children)
+    </div>
+    <div class="display-field">
+        <ul>
+            @foreach (var item in Model.Children)
+            {
+                <li>@item</li>
+            }
+        </ul>
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Back to Muppet's Home", "Index")
+</p>

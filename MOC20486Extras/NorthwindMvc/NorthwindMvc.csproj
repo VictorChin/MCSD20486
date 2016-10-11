@@ -148,10 +148,13 @@
       <DependentUpon>Strings.resx</DependentUpon>
     </Compile>
     <Compile Include="Controllers\CategoryController.cs" />
+    <Compile Include="Controllers\Default1Controller.cs" />
     <Compile Include="Controllers\FlightsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MuppetController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\SomtingElseController.cs" />
+    <Compile Include="Controllers\Somtingwong.cs" />
     <Compile Include="DomainModel\Category.cs">
       <DependentUpon>NorthwindModel.tt</DependentUpon>
     </Compile>
@@ -201,6 +204,7 @@
     <Compile Include="DomainModel\Territory.cs">
       <DependentUpon>NorthwindModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Filters\SampleFilter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -288,6 +292,9 @@
       <DependentUpon>NorthwindModel.edmx</DependentUpon>
       <LastGenOutput>NorthwindModel.cs</LastGenOutput>
     </Content>
+    <Content Include="Content\missing.html" />
+    <Content Include="Content\defaulterror.html" />
+    <None Include="Properties\PublishProfiles\blah.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
@@ -327,6 +334,14 @@
     <Content Include="Views\Category\Edit.cshtml" />
     <Content Include="Views\Category\Delete.cshtml" />
     <Content Include="Views\Home\Flights.cshtml" />
+    <Content Include="Views\Default1\Index.cshtml" />
+    <Content Include="Views\Default1\Details.cshtml" />
+    <Content Include="Views\Default1\Create.cshtml" />
+    <Content Include="Views\Default1\Edit.cshtml" />
+    <Content Include="Views\Default1\Delete.cshtml" />
+    <Content Include="Views\Shared\SomtingElse.cshtml" />
+    <Content Include="Views\Shared\missing.cshtml" />
+    <None Include="Views\Shared\Somtingview.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
