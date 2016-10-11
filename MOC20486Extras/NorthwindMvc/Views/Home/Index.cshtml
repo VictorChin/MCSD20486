@@ -2,12 +2,18 @@
 @model int
 @{
     ViewBag.Title = Strings.Hello;
+    ViewBag.message = "<h1>test</h1>";
+    Culture = "fr";
+    UICulture = "fr";
 }
 <h2>@Strings.Hello</h2>
 
 <h3>We have had @Model visitors.</h3>
 
 <input id="clickButton" value="@Strings.Show @Strings.Model" type="button" />
+@ViewBag.message
+@(ViewBag.message)
+@Html.Encode(ViewBag.message)
 <nav>
     <ul>
         <li><a href="home/person">Home > Person</a> <small>(gets passed a complex model)</small></li>

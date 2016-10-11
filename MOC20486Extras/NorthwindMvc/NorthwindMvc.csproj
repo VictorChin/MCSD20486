@@ -132,6 +132,11 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Content\Localization\Strings.zh-HK.Designer.cs">
+      <DependentUpon>Strings.zh-HK.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Content\Localization\Strings.fr-CA.Designer.cs">
       <DependentUpon>Strings.fr-CA.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -152,6 +157,7 @@
     <Compile Include="Controllers\FlightsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MuppetController.cs" />
+    <Compile Include="Controllers\Pepe\Default2Controller.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\SomtingElseController.cs" />
     <Compile Include="Controllers\Somtingwong.cs" />
@@ -167,6 +173,7 @@
     <Compile Include="DomainModel\Employee.cs">
       <DependentUpon>NorthwindModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="DomainModel\LocalizedViewEngine.cs" />
     <Compile Include="DomainModel\NorthwindModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -341,6 +348,7 @@
     <Content Include="Views\Default1\Delete.cshtml" />
     <Content Include="Views\Shared\SomtingElse.cshtml" />
     <Content Include="Views\Shared\missing.cshtml" />
+    <Content Include="Views\Home\Index.zh-HK.cshtml" />
     <None Include="Views\Shared\Somtingview.cshtml" />
   </ItemGroup>
   <ItemGroup />
@@ -348,6 +356,10 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Content\Localization\Strings.zh-HK.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.zh-HK.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Content\Localization\Strings.fr-CA.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Strings.fr-CA.Designer.cs</LastGenOutput>

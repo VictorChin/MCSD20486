@@ -25,6 +25,7 @@ namespace NorthwindMvc.DomainModel
         {
             [Required]
             [StringLength(40)]
+            [Display(Name ="Name of Product")]
             public object ProductName { get; set; }
 
             [DataType(DataType.Currency)]

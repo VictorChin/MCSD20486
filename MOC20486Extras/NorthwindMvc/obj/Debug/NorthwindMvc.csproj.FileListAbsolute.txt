@@ -41,6 +41,7 @@ c:\users\administrator\documents\visual studio 2012\Projects\MOC20486Extras\Nort
 C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\bin\NorthwindMvc.dll.config
 C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\bin\NorthwindMvc.dll
 C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\bin\NorthwindMvc.pdb
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\bin\zh-HK\NorthwindMvc.resources.dll
 C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\bin\fr-CA\NorthwindMvc.resources.dll
 C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\bin\fr\NorthwindMvc.resources.dll
 C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\bin\Antlr3.Runtime.dll
@@ -70,11 +71,12 @@ C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\bin\Sy
 C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\bin\System.Web.WebPages.xml
 C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\bin\System.Web.WebPages.Razor.xml
-C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\obj\Debug\NorthwindMvc.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\obj\Debug\NorthwindMvc.Content.Localization.Strings.resources
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\obj\Debug\NorthwindMvc.Content.Localization.Strings.zh-HK.resources
 C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\obj\Debug\NorthwindMvc.Content.Localization.Strings.fr-CA.resources
 C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\obj\Debug\NorthwindMvc.Content.Localization.Strings.fr.resources
 C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\obj\Debug\NorthwindMvc.csproj.GenerateResource.Cache
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\obj\Debug\zh-HK\NorthwindMvc.resources.dll
 C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\obj\Debug\fr-CA\NorthwindMvc.resources.dll
 C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\obj\Debug\fr\NorthwindMvc.resources.dll
 C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\obj\Debug\NorthwindMvc.dll

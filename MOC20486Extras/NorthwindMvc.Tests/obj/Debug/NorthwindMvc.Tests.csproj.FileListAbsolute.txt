@@ -69,3 +69,4 @@ C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\
 C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\obj\Debug\NorthwindMvc.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\obj\Debug\NorthwindMvc.Tests.dll
 C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\obj\Debug\NorthwindMvc.Tests.pdb
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc.Tests\bin\Debug\zh-HK\NorthwindMvc.resources.dll

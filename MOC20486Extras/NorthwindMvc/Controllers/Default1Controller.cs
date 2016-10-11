@@ -22,12 +22,9 @@ namespace NorthwindMvc.Controllers
         [HandleError(ExceptionType =typeof(Somtingwong),View = "Somtingview")]
         public ActionResult Index()
         {
-            throw new Somtingwong();
+            
             var products = db.Products.Include(p => p.Category).Include(p => p.Supplier);
-            if (products.Count() > 5)
-            {
-                throw new Somtingwong();
-            }
+  
             ViewBag.something = System.DateTime.Now;
             ViewData["something"] = System.DateTime.Now;
             return View(products.ToList());
@@ -139,5 +136,6 @@ namespace NorthwindMvc.Controllers
             db.Dispose();
             base.Dispose(disposing);
         }
+
     }
 }

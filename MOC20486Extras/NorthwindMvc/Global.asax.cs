@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NorthwindMvc.DomainModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -15,6 +16,14 @@ namespace NorthwindMvc
 
     public class MvcApplication : System.Web.HttpApplication
     {
+
+        protected void Application_Error()
+        {
+            if (Server.GetLastError().GetType() == typeof(IndexOutOfRangeException))
+            {
+                Response.Redirect("~/Content/defaulterror.html");
+            }
+        }
         protected void Application_Start()
         {
            
@@ -24,6 +33,10 @@ namespace NorthwindMvc
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            
+            ViewEngines.Engines.Add(new LocalizedViewEngine());
         }
     }
 }
+
+
