@@ -34,3 +34,39 @@ c:\users\administrator\documents\visual studio 2013\Projects\ServiceDemo\Service
 c:\users\administrator\documents\visual studio 2013\Projects\ServiceDemo\ServiceDemo\bin\EntityFramework.SqlServer.dll
 c:\users\administrator\documents\visual studio 2013\Projects\ServiceDemo\ServiceDemo\bin\EntityFramework.xml
 c:\users\administrator\documents\visual studio 2013\Projects\ServiceDemo\ServiceDemo\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\ServiceDemo.dll.config
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\ServiceDemo.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\ServiceDemo.pdb
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\EntityFramework.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\System.Web.Http.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\System.Web.Razor.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\WebGrease.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\EntityFramework.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\System.Web.Http.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\System.Web.Optimization.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\System.Web.Razor.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\obj\Debug\ServiceDemo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\obj\Debug\ServiceDemo.dll
+C:\Users\Administrator\Source\Repos\MCSD20486\Demos486-2016-06-01\ServiceDemo\ServiceDemo\obj\Debug\ServiceDemo.pdb

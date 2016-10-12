@@ -30,7 +30,7 @@
     </Imports>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="C:\FB486_MVC\CloudService\ContosoAdsCloudService\rcf\Release\ContosoAdsWebContent\" />
+        <SourceDirectory path="C:\Users\Administrator\Source\Repos\MCSD20486\CloudService\ContosoAdsCloudService\rcf\Release\ContosoAdsWebContent\" />
       </Content>
     </Contents>
   </WebRole>
@@ -46,7 +46,7 @@
     </Imports>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="C:\FB486_MVC\CloudService\ContosoAdsCloudService\rcf\Release\ContosoAdsWorkerContent\" />
+        <SourceDirectory path="C:\Users\Administrator\Source\Repos\MCSD20486\CloudService\ContosoAdsCloudService\rcf\Release\ContosoAdsWorkerContent\" />
       </Content>
     </Contents>
   </WorkerRole>

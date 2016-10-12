@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp-WSFederation-DotNet"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADFSDEMO", "ADFSDEMO\ADFSDEMO.csproj", "{9D060FA1-511A-4E2E-8DAF-10D093B37DBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityLab", "IdentityLab\IdentityLab.csproj", "{101C95A0-9315-4CF5-AA5D-15DCB9F1E405}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9D060FA1-511A-4E2E-8DAF-10D093B37DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D060FA1-511A-4E2E-8DAF-10D093B37DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D060FA1-511A-4E2E-8DAF-10D093B37DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101C95A0-9315-4CF5-AA5D-15DCB9F1E405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101C95A0-9315-4CF5-AA5D-15DCB9F1E405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101C95A0-9315-4CF5-AA5D-15DCB9F1E405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101C95A0-9315-4CF5-AA5D-15DCB9F1E405}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

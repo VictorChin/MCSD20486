@@ -35,14 +35,14 @@
     <Property name="SetConfiguration" value="Configuration=Release" />
     <Property name="SetPlatform" value="Platform=AnyCPU" />
     <Property name="RoleTargetFramework" value="v4.5" />
-    <Property name="OutputDir" value="C:\FB486_MVC\CloudService\ContosoAdsCloudService\obj\Release\ContosoAdsWeb\" />
+    <Property name="OutputDir" value="C:\Users\Administrator\Source\Repos\MCSD20486\CloudService\ContosoAdsCloudService\obj\Release\ContosoAdsWeb\" />
     <Property name="EntryPoint" value="ContosoAdsWeb.dll" />
-    <Property name="SourceDir" value="C:\FB486_MVC\CloudService\ContosoAdsWeb\" />
-    <Property name="SitePhysicalPath" value="C:\FB486_MVC\CloudService\ContosoAdsCloudService\obj\Release\ContosoAdsWeb\" />
+    <Property name="SourceDir" value="C:\Users\Administrator\Source\Repos\MCSD20486\CloudService\ContosoAdsWeb\" />
+    <Property name="SitePhysicalPath" value="C:\Users\Administrator\Source\Repos\MCSD20486\CloudService\ContosoAdsCloudService\obj\Release\ContosoAdsWeb\" />
     <Property name="TargetRuntimeVersion" value="v4.0" />
   </Properties>
   <Sites>
-    <Site name="Web" physicalDirectory="C:\FB486_MVC\CloudService\ContosoAdsCloudService\obj\Release\ContosoAdsWeb\">
+    <Site name="Web" physicalDirectory="C:\Users\Administrator\Source\Repos\MCSD20486\CloudService\ContosoAdsCloudService\obj\Release\ContosoAdsWeb\">
       <Bindings>
         <Binding name="Endpoint1" endpointName="Endpoint1" />
       </Bindings>

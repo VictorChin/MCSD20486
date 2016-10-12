@@ -32,9 +32,13 @@ namespace PhotoSharingApplication.Controllers
             {
                 if (Membership.ValidateUser(model.UserName, model.Password))
                 {
+                    
                     FormsAuthentication.SetAuthCookie(model.UserName, model.RememberMe);
+                    this.HttpContext.Cache["BagOCrap"] = "blah";
+                   // Profile.SetPropertyValue("PostalCode", "11355");
                     if (Url.IsLocalUrl(returnUrl))
                     {
+
                         return Redirect(returnUrl);
                     }
                     else

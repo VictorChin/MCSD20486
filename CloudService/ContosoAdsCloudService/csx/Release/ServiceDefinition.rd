@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ContosoAdsCloudService" generation="1" functional="0" release="0" Id="425cded1-10aa-4e47-b8b5-f4825ce93efd" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ContosoAdsCloudService" generation="1" functional="0" release="0" Id="ff9b4c56-3205-4752-9941-8c49aa3a4490" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="ContosoAdsCloudServiceGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -232,7 +232,7 @@
       </maps>
       <components>
         <groupHascomponents>
-          <role name="ContosoAdsWeb" generation="1" functional="0" release="0" software="C:\FB486_MVC\CloudService\ContosoAdsCloudService\csx\Release\roles\ContosoAdsWeb" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaIISHost.exe " memIndex="-1" hostingEnvironment="frontendadmin" hostingEnvironmentVersion="2">
+          <role name="ContosoAdsWeb" generation="1" functional="0" release="0" software="C:\Users\Administrator\Source\Repos\MCSD20486\CloudService\ContosoAdsCloudService\csx\Release\roles\ContosoAdsWeb" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaIISHost.exe " memIndex="-1" hostingEnvironment="frontendadmin" hostingEnvironmentVersion="2">
             <componentports>
               <inPort name="Endpoint1" protocol="http" portRanges="80" />
               <inPort name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Rdp" protocol="tcp" portRanges="3389" />
@@ -279,7 +279,7 @@
           </sCSPolicy>
         </groupHascomponents>
         <groupHascomponents>
-          <role name="ContosoAdsWorker" generation="1" functional="0" release="0" software="C:\FB486_MVC\CloudService\ContosoAdsCloudService\csx\Release\roles\ContosoAdsWorker" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="-1" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
+          <role name="ContosoAdsWorker" generation="1" functional="0" release="0" software="C:\Users\Administrator\Source\Repos\MCSD20486\CloudService\ContosoAdsCloudService\csx\Release\roles\ContosoAdsWorker" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="-1" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
             <componentports>
               <inPort name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput" protocol="tcp" />
               <inPort name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Rdp" protocol="tcp" portRanges="3389" />
@@ -338,14 +338,14 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="dbfa4dfc-c461-490a-b6b5-6d4adfcc4674" ref="Microsoft.RedDog.Contract\ServiceContract\ContosoAdsCloudServiceContract@ServiceDefinition">
+    <implementation Id="14ad847b-6fea-4f69-92be-a5c5b62d1e44" ref="Microsoft.RedDog.Contract\ServiceContract\ContosoAdsCloudServiceContract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="461b05d7-ddef-46e9-a86f-158b7b35783f" ref="Microsoft.RedDog.Contract\Interface\ContosoAdsWeb:Endpoint1@ServiceDefinition">
+        <interfaceReference Id="7d714e7b-561f-4e52-92bb-876c4753c54a" ref="Microsoft.RedDog.Contract\Interface\ContosoAdsWeb:Endpoint1@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/ContosoAdsCloudService/ContosoAdsCloudServiceGroup/ContosoAdsWeb:Endpoint1" />
           </inPort>
         </interfaceReference>
-        <interfaceReference Id="bd809154-58c0-4358-aae7-17f256f375ef" ref="Microsoft.RedDog.Contract\Interface\ContosoAdsWorker:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput@ServiceDefinition">
+        <interfaceReference Id="18f54984-f4c2-474c-a6f4-0acfe6d7e2ff" ref="Microsoft.RedDog.Contract\Interface\ContosoAdsWorker:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/ContosoAdsCloudService/ContosoAdsCloudServiceGroup/ContosoAdsWorker:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput" />
           </inPort>

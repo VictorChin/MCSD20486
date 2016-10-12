@@ -27,10 +27,14 @@
     </Endpoints>
     <Imports>
       <Import moduleName="RemoteAccess" />
+      <Import moduleName="Diagnostics" />
     </Imports>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="C:\FB486_MVC\CloudService\ContosoAdsCloudService\rcf\Debug\ContosoAdsWebContent\" />
+        <SourceDirectory path="C:\Users\Administrator\Source\Repos\MCSD20486\CloudService\ContosoAdsCloudService\rcf\Debug\ContosoAdsWebContent\" />
+      </Content>
+      <Content destination=".\">
+        <SourceDirectory path="C:\Users\Administrator\Source\Repos\MCSD20486\CloudService\ContosoAdsCloudService\ecf\ContosoAdsWebContent\" />
       </Content>
     </Contents>
   </WebRole>
@@ -43,10 +47,14 @@
     <Imports>
       <Import moduleName="RemoteAccess" />
       <Import moduleName="RemoteForwarder" />
+      <Import moduleName="Diagnostics" />
     </Imports>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="C:\FB486_MVC\CloudService\ContosoAdsCloudService\rcf\Debug\ContosoAdsWorkerContent\" />
+        <SourceDirectory path="C:\Users\Administrator\Source\Repos\MCSD20486\CloudService\ContosoAdsCloudService\rcf\Debug\ContosoAdsWorkerContent\" />
+      </Content>
+      <Content destination=".\">
+        <SourceDirectory path="C:\Users\Administrator\Source\Repos\MCSD20486\CloudService\ContosoAdsCloudService\ecf\ContosoAdsWorkerContent\" />
       </Content>
     </Contents>
   </WorkerRole>

@@ -18,6 +18,10 @@ namespace ADFSDEMO.Controllers
                 HttpContext.GetOwinContext().Authentication.Challenge(new AuthenticationProperties { RedirectUri = "/" }, 
                     WsFederationAuthenticationDefaults.AuthenticationType);
             }
+            
+
+
+
         }
 
         public void SignOut()

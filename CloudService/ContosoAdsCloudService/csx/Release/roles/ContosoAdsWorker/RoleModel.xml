@@ -43,7 +43,7 @@
     <Property name="Configuration" value="Release" />
     <Property name="Platform" value="AnyCPU" />
     <Property name="RoleTargetFramework" value="v4.5" />
-    <Property name="OutputDir" value="C:\FB486_MVC\CloudService\ContosoAdsCloudService\obj\Release\ContosoAdsWorker\" />
+    <Property name="OutputDir" value="C:\Users\Administrator\Source\Repos\MCSD20486\CloudService\ContosoAdsCloudService\obj\Release\ContosoAdsWorker\" />
     <Property name="EntryPoint" value="ContosoAdsWorker.dll" />
     <Property name="SourceDir" value="" />
     <Property name="SitePhysicalPath" value="" />
