@@ -27,8 +27,13 @@ namespace ADFSDEMO
                 new WsFederationAuthenticationOptions
                 {
                     TokenValidationParameters =
-                    new TokenValidationParameters { AudienceValidator =
-                    (aud, b, c) => true
+                    new TokenValidationParameters
+                    {
+                        AudienceValidator =
+                    (aud, b, c) =>
+                      {
+                          return true; //I trust you; 
+                      }
                     },
                     Wtrealm = realm,
                     MetadataAddress = adfsMetadata

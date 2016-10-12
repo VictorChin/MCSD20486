@@ -57,7 +57,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ContosoAdsWebContent\" />
-    <Folder Include="ContosoAdsWebContent\NewFolder1\" />
     <Folder Include="ContosoAdsWorkerContent\" />
     <Folder Include="Profiles" />
   </ItemGroup>

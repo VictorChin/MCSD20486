@@ -209,7 +209,7 @@ namespace ContosoAdsWeb.Controllers
         private async Task<CloudBlockBlob> UploadAndSaveBlobAsync(HttpPostedFileBase imageFile)
         {
             Trace.TraceInformation("Uploading image file {0}", imageFile.FileName);
-
+            Trace.TraceError("Not really an error but a demo");
             string blobName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
             // Retrieve reference to a blob. 
             CloudBlockBlob imageBlob = imagesBlobContainer.GetBlockBlobReference(blobName);
