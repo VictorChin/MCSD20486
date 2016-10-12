@@ -348,7 +348,7 @@
     <Content Include="Views\Default1\Delete.cshtml" />
     <Content Include="Views\Shared\SomtingElse.cshtml" />
     <Content Include="Views\Shared\missing.cshtml" />
-    <Content Include="Views\Home\Index.zh-HK.cshtml" />
+    <Content Include="Views\Home\Index.iphone.cshtml" />
     <None Include="Views\Shared\Somtingview.cshtml" />
   </ItemGroup>
   <ItemGroup />

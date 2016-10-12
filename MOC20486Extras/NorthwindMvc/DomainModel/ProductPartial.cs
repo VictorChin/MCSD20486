@@ -12,6 +12,9 @@ namespace NorthwindMvc.DomainModel
         // add overrides and extensions
         public override string ToString()
         {
+
+
+
             return "[" + ProductID + "] " + ProductName + (UnitPrice.HasValue ? " costs " + UnitPrice.Value.ToString("c") : "");
         }
 

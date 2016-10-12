@@ -81,3 +81,4 @@ C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\obj\De
 C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\obj\Debug\fr\NorthwindMvc.resources.dll
 C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\obj\Debug\NorthwindMvc.dll
 C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\obj\Debug\NorthwindMvc.pdb
+C:\Users\Administrator\Source\Repos\MCSD20486\MOC20486Extras\NorthwindMvc\obj\Debug\NorthwindMvc.csprojResolveAssemblyReference.cache

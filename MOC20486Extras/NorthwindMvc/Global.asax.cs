@@ -26,14 +26,19 @@ namespace NorthwindMvc
         }
         protected void Application_Start()
         {
-           
+            DisplayModeProvider.Instance.Modes.Insert(0,
+                new DefaultDisplayMode("iphone")
+                {
+                    ContextCondition =
+                        (ctx => true)
+                });
+
             AreaRegistration.RegisterAllAreas();
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            
             ViewEngines.Engines.Add(new LocalizedViewEngine());
         }
     }
