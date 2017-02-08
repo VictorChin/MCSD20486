@@ -12,7 +12,7 @@ using System.Web;
 
 namespace PhotoSharingApplication.Models
 {
-    public class PhotoSharingInitializer : DropCreateDatabaseAlways<PhotoSharingContext>
+    public class PhotoSharingInitializer : CreateDatabaseIfNotExists<PhotoSharingContext>
     {
         //This method puts sample data into the database
         protected override void Seed(PhotoSharingContext context)
