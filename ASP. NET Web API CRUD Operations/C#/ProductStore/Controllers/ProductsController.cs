@@ -10,12 +10,21 @@ namespace ProductStore.Controllers
 {
     public class ProductsController : ApiController
     {
-        static readonly IProductRepository repository = new ProductRepository();
-
+        IProductRepository repository;// = new ProductRepository();
         public IEnumerable<Product> GetAllProducts()
         {
             return repository.GetAll();
         }
+        public ProductsController()
+        {
+            repository = new ProductRepository();
+        }
+        public ProductsController(IProductRepository fake)
+        {
+            repository = fake;
+        }
+
+
 
         public Product GetProduct(int id)
         {

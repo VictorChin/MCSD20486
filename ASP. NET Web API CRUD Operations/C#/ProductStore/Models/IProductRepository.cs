@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProductStore.Models
 {
-    interface IProductRepository
+   public interface IProductRepository
     {
         IEnumerable<Product> GetAll();
         Product Get(int id);

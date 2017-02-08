@@ -14,7 +14,7 @@ function slideSwitch() {
     //Get the currently displayed image and the next one
     var $activeCard = $('#slide-show DIV.active-card');
     //if there is no active one, we'll take the first one
-    if ($activeCard.length == 0) {
+    if ($activeCard.length === 0) {
         $activeCard = $('#slide-show DIV.slide-show-card:last')
     }
 

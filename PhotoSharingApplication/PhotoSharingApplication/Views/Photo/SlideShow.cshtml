@@ -22,9 +22,8 @@
             <p>
                 By @Html.DisplayFor(modelItem => item.UserName)
             </p>
-            @if (item.PhotoFile != null) {
-                <img height="530" src="@Url.Action("GetImage", "Photo", new { id = item.PhotoID })" />
-            }
+       
+                <img height="530" src="@item.AzurePath" />
         </div>
         
     }

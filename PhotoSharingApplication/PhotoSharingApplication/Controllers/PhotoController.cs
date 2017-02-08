@@ -7,6 +7,12 @@ using System.Web.UI;
 using System.Globalization;
 using PhotoSharingApplication.Models;
 using PhotoSharingApplication.LocationCheckService;
+using System.IO;
+using Microsoft.WindowsAzure.Storage;
+using Microsoft.WindowsAzure.Storage.Blob;
+using Microsoft.WindowsAzure.Storage.RetryPolicies;
+using System.Configuration;
+using System.Diagnostics;
 
 namespace PhotoSharingApplication.Controllers
 {
@@ -109,11 +115,38 @@ namespace PhotoSharingApplication.Controllers
                 {
                     photo.ImageMimeType = image.ContentType;
                     photo.PhotoFile = new byte[image.ContentLength];
-                    image.InputStream.Read(photo.PhotoFile, 0, image.ContentLength);
+                    photo.AzurePath = uploadFromStream(image.InputStream,image.FileName);
                 }
                 context.Add<Photo>(photo);
                 context.SaveChanges();
                 return RedirectToAction("Index");
+            }
+        }
+
+        private string uploadFromStream(Stream inputStream,string filename)
+        {
+            CloudStorageAccount storageAccount =
+                CloudStorageAccount.Parse(ConfigurationManager.AppSettings["StorageConnStr"]);
+            CloudBlobClient blobClient = storageAccount.CreateCloudBlobClient();
+            CloudBlobContainer container = blobClient.GetContainerReference("photosharing");
+            try
+            {
+                BlobRequestOptions requestOptions = new BlobRequestOptions() { RetryPolicy = new NoRetry() };
+                container.CreateIfNotExistsAsync(requestOptions, null).Wait();
+
+                BlobContainerPermissions permissions = container.GetPermissions();
+                permissions.PublicAccess = BlobContainerPublicAccessType.Container;
+                container.SetPermissions(permissions);
+
+                CloudBlockBlob blockBlob = container.GetBlockBlobReference(filename);
+                blockBlob.Properties.ContentType = "image/jpeg";
+                blockBlob.UploadFromStream(inputStream);
+                return blockBlob.Uri.ToString();
+            }
+            catch (StorageException)
+            {
+                Trace.WriteLine("If you are running with the default connection string, please make sure you have started the storage emulator. Press the Windows key and type Azure Storage to select and run it from the list of applications - then restart the sample.");
+                throw;
             }
         }
 
@@ -139,12 +172,12 @@ namespace PhotoSharingApplication.Controllers
             return RedirectToAction("Index");
         }
 
-        public FileContentResult GetImage(int id)
+        public ActionResult GetImage(int id)
         {
             Photo photo = context.FindPhotoById(id);
             if (photo != null)
             {
-                return File(photo.PhotoFile, photo.ImageMimeType);
+                return Content(photo.AzurePath);
             }
             else
             {

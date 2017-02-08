@@ -48,6 +48,7 @@ namespace PhotoSharingApplication.Models
         //Latitude. This is the latitude where the photo was taken
         public string Latitude { get; set; }
 
+        public string AzurePath { get; set; }
         //All the comments on this photo, as a navigation property
         public virtual ICollection<Comment> Comments { get; set; }
 

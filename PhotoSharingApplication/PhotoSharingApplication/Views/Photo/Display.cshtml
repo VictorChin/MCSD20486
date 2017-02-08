@@ -6,11 +6,10 @@
 
 <h2>"@Model.Title"</h2>
 
-@if (Model.PhotoFile != null) {
+
     <div class="photo-display">
-        <img width="800" src="@Url.Action("GetImage", "Photo", new { id = Model.PhotoID })" />
+        <img width="800" src="@Model.AzurePath" />
     </div>
-}
 
 <div class="photo-description">
     @Html.DisplayFor(model => model.Description)

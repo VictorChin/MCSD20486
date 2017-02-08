@@ -6,10 +6,9 @@
 <div class="photo-index-card">
     <h3>"@item.Title"</h3>
     
-    @if (item.PhotoFile != null)
-    {
-        <img class="photo-index-card-img" src="@Url.Action("GetImage", "Photo", new { id = item.PhotoID })" />
-    }
+
+        <img class="photo-index-card-img" src="@item.AzurePath" />
+
     
     <div class="photo-metadata">
         
